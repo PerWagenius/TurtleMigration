@@ -13,12 +13,12 @@ This code translates code from https://github.com/qbeslab/MagneticModelApp/ into
 ## Features
 # Gill Model:
 - Get magnetic field information at any location (choose your own magnetic field dataset or use GeoMag from pygeomag)
-- Generate a simulated path using only magnetic field information based on Gill & Taylor paper
+- Generate a simulated path using magnetic field information based on Gill & Taylor (2024)
 - Use simulated annealing to tune parameters to a given real turtle path
 - Plots of paths with colored regions corresponding to stability analysis
 # Conditional Logistic Model Comparison:
 - Example code for adding environmental condition data to a geospacial path
-- Generating random shuffling of a path as in Leclerc et al.
+- Generating random shuffling of a path as in Leclerc et al. (2021)
 - Determine which set of environmental conditions can best predict a turtle's migration path
 
 ## References
