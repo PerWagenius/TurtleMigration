@@ -18,7 +18,7 @@ This code translates code from https://github.com/qbeslab/MagneticModelApp/ into
 - Plots of paths with colored regions corresponding to stability analysis
 # Conditional Logistic Model Comparison:
 - Example code for adding environmental condition data to a geospacial path
-- Generating random shuffling of a path as in Lecler et al.
+- Generating random shuffling of a path as in Leclerc et al.
 - Determine which set of environmental conditions can best predict a turtle's migration path
 
 ## References
