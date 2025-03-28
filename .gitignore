@@ -1,0 +1,25 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+#Ignore R proj data
+.Rproj.user/
+.Rhistory
+.Rproj
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+FakePathsAdded/
+*.csv
+*.pkl
+*.nc
+
+#Ignore generated plots
+*.jpg
+*.png
+
+#Ignore misc files
+GillModel/Unusded/
+Tracks/
