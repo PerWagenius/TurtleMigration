@@ -11,21 +11,15 @@ This code translates code from https://github.com/qbeslab/MagneticModelApp/ into
 
 
 ## Features
-- Interpolates bathymetry data using the GEBCO dataset.
-- Adds magnetic intensity and inclination using a pre-trained magnetic model.
-- Generates scrambled paths for analysis.
-
-## Setup
-1. Install dependencies:
-   ```bash
-   pip install xarray pandas numpy
-   ```
-2. Set environment variables:
-   - `GEBCO_PATH`: Path to the GEBCO dataset file.
-   - `TRACK_FILE`: Path to the track CSV file.
-
-## Usage
-Run the scripts in the project directory to process data and generate outputs.
+# Gill Model:
+- Get magnetic field information at any location (choose your own magnetic field dataset or use GeoMag from pygeomag)
+- Generate a simulated path using only magnetic field information based on Gill & Taylor paper
+- Use simulated annealing to tune parameters to a given real turtle path
+- Plots of paths with colored regions corresponding to stability analysis
+# Conditional Logistic Model Comparison:
+- Example code for adding environmental condition data to a geospacial path
+- Generating random shuffling of a path as in Lecler et al.
+- Determine which set of environmental conditions can best predict a turtle's migration path
 
 ## References
 Leclerc, Martin, Mathieu Leblond, Maël Le Corre, Christian Dussault, and Steeve D. Côté. “Determinants of Migration Trajectory and Movement Rate in a Longdistance Terrestrial Mammal.” *Journal of Mammalogy* 102, no. 5 (2021): 1342–52. https://www.jstor.org/stable/27302202.
