@@ -4,8 +4,8 @@ __pycache__/
 
 #Ignore R proj data
 .Rproj.user/
-.Rhistory
-.Rproj
+*.Rhistory
+*.Rproj
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
